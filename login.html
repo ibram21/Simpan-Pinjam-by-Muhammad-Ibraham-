@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <section id="beranda">
+      <header>
+        <div class="jumbotron">
+          <img src=""  alt="" />
+          <h1>Ibram's Cooperative</h1>
+          <p>Cooperative Branch of Pamulang's University</p>
+        </div>
+      </header>
+    </section>
+    <!-- Header end -->
+    <!-- Navbar -->
+    <div class="navbar-content fixed-top">
+      <nav>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="transaksi.html">Transaksi</a></li>
+          <li><a href="profil.html">Profil</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Navbar end -->
+
+    <!-- Login Form -->
+    <form action="action_page.php" method="post">
+      <div class="imgcontainer"><img src="https://1.bp.blogspot.com/-BKg_iWF2TYQ/YRpECSBxg7I/AAAAAAAAAes/9ln8k_TnvmUS7k_fs41kXprzMoUdcmozwCLcBGAsYHQ/s1181/UNPAM.png" alt="Avatar" class="avatar"" /></div>
+
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required />
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required />
+
+        <button type="submit">Login</button>
+        <label> <input type="checkbox" checked="checked" name="remember" /> Remember me </label>
+      </div>
+
+      <div class="container" style="background-color: #f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+    <!-- Login Form end -->
+  </body>
+</html>

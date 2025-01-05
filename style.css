@@ -1,0 +1,204 @@
+body {
+  min-height: 1px;
+  background: gainsboro;
+  margin: 0px;
+  padding-bottom: 50rem;
+  
+}
+.jumbotron {
+  background-image: url("https://img.freepik.com/free-vector/elegant-round-shape-modern-background-presentation_1017-50072.jpg?t=st=1735978694~exp=1735982294~hmac=2a77cd0dd7e273bf5149ba58bb002aad174165a1b6eeab8b7d65c6ec2b6652f0&w=900");
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background-color: white;
+  color: white;
+  box-shadow: 0 2px 7px #180161;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.jumbotron img {
+  
+  padding-bottom: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.jumbotron img:hover {
+  transform: translateY(-5px);
+}
+
+.jumbotron h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-variant: small-caps;
+  font-size: 350%;
+  padding: 15px;
+  line-height: 10%;
+  font-weight: normal;
+  color: black;
+}
+.jumbotron p {
+  font-size: 150%;
+  color: black;
+}
+.navbar-content {
+  position: sticky;
+  overflow: hidden;
+  top: 0;
+  color: orange;
+  background-color: #FAB12F;
+  box-shadow: 0 0 7px black;
+  font-family: monospace;
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 4px 10px; /* Add padding for spacing */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+}
+
+nav ul li {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+  margin: 0 10px; /* Adjusted spacing between menu items */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+nav ul li a:hover {
+  color: #fb773c; /* Hover effect color change */
+}
+#slider {
+  padding-top: 2rem;
+}
+.layanan h1 {
+  text-align: center;
+  padding-top: 4rem;
+  font-weight: bold;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+ 
+}
+.layanan h5 {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+#audio {
+  text-align: center;
+  padding-top: 3rem;
+}
+#validate {
+  padding-top: 2rem;
+}
+
+/* Transaksi */
+#daftar-transaksi {
+  text-align: center;
+}
+/* Transaksi end */
+
+/* Login */
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #fb773c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  background-color: orange;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #fb773c;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 10%;
+  border-radius: 50%;
+  padding-top: 1rem;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+/* Login end */
+
+/* Container */
+.profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.profileImage{
+  width: 200px;
+}
+
+.profile h2{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+}
+.profile h6{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: bold;
+}
